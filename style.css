@@ -5,6 +5,12 @@ body{
     color: aliceblue;
 }
 
+.globalFontSetting{
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+}
+
 .header_block{
     width: 60%;
     display: flex;
@@ -19,8 +25,9 @@ body{
     justify-content: center;
 }
 
-.leftSide h1{
+.myName{
     margin-bottom: 0;
+    font-size: 30px;
 }
 
 .rightSide{
@@ -73,10 +80,6 @@ body{
     margin-left: 1em;
     right: 21%;
     z-index: 2;
-}
-
-.aboutMeText{
-    font-size: 18px;
 }
 
 .skillsSection{
