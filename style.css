@@ -257,3 +257,67 @@ body{
   .sliderLang.round:before {
     border-radius: 50%;
   }
+
+  @media(max-width: 900px){
+    .sliderLang{
+      top: -4px;
+      left: -25px;
+      right: 26px;
+      bottom: 5px;
+    }
+    .header_block{
+      width: 80%;
+    }
+    .skillsSection{
+      margin: 2em auto;
+    }
+
+    .skillsList{
+      margin-top: 1em;
+    }
+
+    .projects h3{
+      margin-bottom: 1em;
+    }
+    .slick-dots{
+      bottom: 0;
+    }
+  }
+
+  @media (max-width: 500px){
+    .contactInfo{
+      width: 95%;
+    }
+
+    .sliderLang{
+      top: 46px;
+      bottom: -45px;
+      left: 18px;
+      right: -17px;
+    }
+
+    .header_block{
+      width: 95%;
+      flex-direction: column;
+    }
+    .leftSide{
+      text-align: center;
+    }
+
+    .infoBlock{
+      width: 95%;
+    }
+    .skillsSection{
+      width: 95%;
+    }
+    .skillsList{
+      flex-wrap: wrap;
+    }
+    .rightSide{
+      width: 250px;
+      height: 250px;
+    }
+    .rightSide{
+      margin: 0 auto;
+    }
+  }
